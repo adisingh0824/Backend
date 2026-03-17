@@ -3,9 +3,10 @@ const server = http.createServer((req, res) => {
     const method = req.method;
     const url = req.url;
     if (method ==="GET" && url ==="/") {
+
         res.writeHead(200, {"Content-Type":"text/plain" });
         res.end("Welcome to the Home Page");
-    }
+    }// esle
 });
 server.listen(3000,() => {
     console.log("ATMKBFJG");
