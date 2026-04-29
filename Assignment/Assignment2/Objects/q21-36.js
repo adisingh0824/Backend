@@ -183,6 +183,6 @@
 // console.log(totalSpentPerUser);
 //
 // 36. Completed orders only (filter)
-// const completedOrders = orders.filter(order => order.status === 'completed');
-//
-// console.log(completedOrders);
+const completedOrders = orders.filter(order => order.status === 'completed');
+
+console.log(completedOrders);
